@@ -35,10 +35,10 @@ Der Skalierungsfaktor $SF$ wird mittels Referenzmessungen der Windgeschwindigkei
 \end{minipage}}
 \newpage
 
-\subsubsection{Implementation in die Firmware}
+\subsubsection*{Implementation in die Firmware}
 Die Implementation wurde recht simpel gehalten. Der gesamte implementierte Code für das Anemometer ist im Headerfile ''Anemometer.h'' extern deklariert und im File Anemometer.cpp initialisiert. Das Signal $V_{out}$ ist mit einen digital Pin des Atmega 2560 (Pinnummer 2 des Arduino Mega Boards) verbunden. Über einen Zeitraum von $5000ms$, auf die steigende Flanke getriggert, wird die Anzahl von Pulsen mittels Interrupt\footnote{es handelt sich hierbei um \textit{external Interrupts}.} gezählt. Dabei wird zuerst der Interrupt auf der Pinnummer 2 aktiviert, mit einem Delay von $5000ms$ gewartet, wobei bei jedem ausgelösten Interrupt die Funktion \textcolor{orange}{countWind}() ausgeführt und somit bei jeder steigenden Flanke um eins inkrementiert wird. Zum Schluss folgt die Deaktivierung des Interrupts und die Berechnung der Windgeschwindigkeit nach der Gleichung \ref{equ:berechnungWindgeschwindigkeit}.\\
 
-\subsubsection{Validierung}
+\subsubsection*{Validierung}
 Über eine einigermaßen konstanten Windgeschwindigkeit eines Heizlüfters/Ventilators (mit verschiedenen Stärkestufen) wurden Messpunkte des Anemometers (Abb. \ref{fig:anemometer}), sowie auch des digitalen Anemometers (Abb. \ref{fig:digitalesAnemometer}) erfasst. In der Abb. \ref{fig:messpunkteAnemometer_Vergleich} sind diese Messwerte graphisch dargestellt.\\
 
 {\begin{minipage}[b][240pt][t]{0.65\textwidth}
@@ -54,4 +54,3 @@ Die Implementation wurde recht simpel gehalten. Der gesamte implementierte Code 
 \label{fig:digitalesAnemometer}
 \end{minipage}}
 \todo[inline]{Hier muss noch die Interpretation der gemessenen Werte geschrieben werden.}
-\newpage

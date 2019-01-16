@@ -1975,26 +1975,24 @@
     <bcf:datasource type="file" datatype="bibtex">literature/bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">arduinoMega</bcf:citekey>
-    <bcf:citekey order="2">arduinoMega</bcf:citekey>
-    <bcf:citekey order="3">arduinoMega</bcf:citekey>
-    <bcf:citekey order="4">arduinoMega</bcf:citekey>
-    <bcf:citekey order="5">AmazonAnemometer</bcf:citekey>
-    <bcf:citekey order="6">AmazonAnemometer</bcf:citekey>
-    <bcf:citekey order="7">digitalesAnemometerBenetech</bcf:citekey>
-    <bcf:citekey order="8">digitalesAnemometerBenetech</bcf:citekey>
-    <bcf:citekey order="9">ladyada2018</bcf:citekey>
-    <bcf:citekey order="10">ladyada2018</bcf:citekey>
-    <bcf:citekey order="11">ladyada2018</bcf:citekey>
-    <bcf:citekey order="12">spi</bcf:citekey>
-    <bcf:citekey order="13">Wikipedia2018spi</bcf:citekey>
-    <bcf:citekey order="14">Wikipedia2018spi</bcf:citekey>
-    <bcf:citekey order="15">Wikipedia2018spi</bcf:citekey>
+    <bcf:citekey order="1">spi</bcf:citekey>
+    <bcf:citekey order="2">Wikipedia2018spi</bcf:citekey>
+    <bcf:citekey order="3">Wikipedia2018spi</bcf:citekey>
+    <bcf:citekey order="4">Wikipedia2018spi</bcf:citekey>
+    <bcf:citekey order="5">arduinoMega</bcf:citekey>
+    <bcf:citekey order="6">arduinoMega</bcf:citekey>
+    <bcf:citekey order="7">arduinoMega</bcf:citekey>
+    <bcf:citekey order="8">arduinoMega</bcf:citekey>
+    <bcf:citekey order="9">AmazonAnemometer</bcf:citekey>
+    <bcf:citekey order="10">AmazonAnemometer</bcf:citekey>
+    <bcf:citekey order="11">digitalesAnemometerBenetech</bcf:citekey>
+    <bcf:citekey order="12">digitalesAnemometerBenetech</bcf:citekey>
+    <bcf:citekey order="13">ladyada2018</bcf:citekey>
+    <bcf:citekey order="14">ladyada2018</bcf:citekey>
+    <bcf:citekey order="15">ladyada2018</bcf:citekey>
     <bcf:citekey order="16">musdkarte</bcf:citekey>
     <bcf:citekey order="17">musdkarte</bcf:citekey>
     <bcf:citekey order="18">muSDspez</bcf:citekey>
-    <bcf:citekey order="19">ArduinoPinMapping2018</bcf:citekey>
-    <bcf:citekey order="20">ArduinoPinMapping2018</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

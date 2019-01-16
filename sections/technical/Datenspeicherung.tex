@@ -9,7 +9,7 @@ Das Breakoutboard (siehe Abb. \ref{fig:muSDBreakout}) kann wegen des intern impl
 \label{fig:muSDBreakout}
 \end{figure}
 
-\subsubsection{Verdrahtung}
+\subsubsection*{Verdrahtung}
 SD-Karten erfordern viel Datenübertragung. Deshalb kann die beste Leistung erbracht werden, wenn sie an die Hardware-SPI-Pins eines Mikrocontrollers angeschlossen werden. Dabei wird es wie folgt miteinander verbunden: \cite{ladyada2018}
 \todo[inline]{Hier vielleicht noch das Schema hinzufügen wie es Hardwaremässig implementiert wird.}
 \begin{itemize}
@@ -20,19 +20,6 @@ SD-Karten erfordern viel Datenübertragung. Deshalb kann die beste Leistung erbr
 \item \textbf{CS} auf die Pinnummer \textbf{53}
 \end{itemize}
 \newpage
-
-\subsubsection{SPI (Serial Peripheral Interface)}
-\label{subsubsec:spi}
-\begin{minipage}{0.48\textwidth}
-Das \textit{Serial Peripheral Interface} ist ein synchrones serielles Datenprotokoll (Datenbus) bestehend aus drei Datenleitungen zur Datenübertragung. Diese sind, wie in Abbildung \ref{fig:spi} zu sehen, \textbf{MISO} (Master In Slave Out), \textbf{MOSI} (Master Out Slave In) und \textbf{SCLK} (Serial Clock). Auf dem Breakoutboard (Abb. \ref{fig:muSDBreakout}) sind die Pins mit \textbf{DI} (Data In), \textbf{DO} (Data Out) und \textbf{CLK} (Clock) beschrieben. Zu den Datenleitungen wird noch eine \textbf{SS}- (Slave Select) oder auch \textbf{CS}-Leitung (Chip Select) benötigt. Damit wird vom Master aus den zur momentanen Kommunikation nötigen Slave selektiert. Große Vorteile von SPI sind die Vollduplexfähigkeit und das Taktfrequenzen bis in den MHz-Bereich reichen. \cite{spi}\cite{Wikipedia2018spi}\\
-\end{minipage}
-\begin{minipage}{0.51\textwidth}
-\centering
-\includegraphics[width=\textwidth]{graphics/Datenspeicherung/spi_master_slave.png}
-\captionof{figure}{Einfacher SPI-Datenbus \cite{Wikipedia2018spi}}
-\label{fig:spi}
-\end{minipage}
-\todo[inline]{Möglicherweise noch die Taktfrequenz angeben, resp. die Einstellungen des SPI-Protokolls}
 
 \subsection{$\mu$SD-Karte}
 \begin{minipage}{0.44\textwidth}
