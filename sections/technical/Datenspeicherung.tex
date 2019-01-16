@@ -1,4 +1,5 @@
 \section{Datenspeicherung}
+\label{chap:data}
 Die Datenspeicherung beinhaltet die gespeicherten Messwerte der Sensoren. Dafür wird als Speichermedium eine $\mu$SD-Karte verwendet, welche direkt in das 254 $\mu$SD-Breakoutboard von Adafruit gesteckt wird. Die Daten werden dann in einem *.txt-File nicht flüchtig gespeichert. Bei Beschädigung der Hardware können dann die zuletzt erfassten Daten immer noch mittels eines SD-Karten-Adapters von einem Computer ausgelesen werden. Als Kommunikationsprotokoll für das Schreiben und Auslesen der Karte wird SPI verwendet.\\
 \subsection{Breakoutboard}
 Das Breakoutboard (siehe Abb. \ref{fig:muSDBreakout}) kann wegen des intern implementierten \textit{CD74HC4050 high-speed logic level translators}\footnote{konvertiert eine high-level logik in eine low-level logik} mit 5V betrieben werden. Das Arduino Mega Board und das Breakoutboard werden über SPI (siehe Kapitel \ref{subsubsec:spi}) nach dem Master-Slave Kommunikationsprinzip miteinander verbunden. 
