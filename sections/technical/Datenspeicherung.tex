@@ -1,0 +1,70 @@
+\section{Datenspeicherung}
+Die Datenspeicherung beinhaltet die gespeicherten Messwerte der Sensoren. Dafür wird als Speichermedium eine $\mu$SD-Karte verwendet, welche direkt in das 254 $\mu$SD-Breakoutboard von Adafruit gesteckt wird. Die Daten werden dann in einem *.txt-File nicht flüchtig gespeichert. Bei Beschädigung der Hardware können dann die zuletzt erfassten Daten immer noch mittels eines SD-Karten-Adapters von einem Computer ausgelesen werden. Als Kommunikationsprotokoll für das Schreiben und Auslesen der Karte wird SPI verwendet.\\
+\subsection{Breakoutboard}
+Das Breakoutboard (siehe Abb. \ref{fig:muSDBreakout}) kann wegen des intern implementierten \textit{CD74HC4050 high-speed logic level translators}\footnote{konvertiert eine high-level logik in eine low-level logik} mit 5V betrieben werden. Das Arduino Mega Board und das Breakoutboard werden über SPI (siehe Kapitel \ref{subsubsec:spi}) nach dem Master-Slave Kommunikationsprinzip miteinander verbunden. 
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\linewidth]{graphics/Datenspeicherung/micro_sd_card_breakout.png}
+\caption{254 $\mu$SD-Breakoutboard von Adafruit \cite{ladyada2018}}
+\label{fig:muSDBreakout}
+\end{figure}
+
+\subsubsection{Verdrahtung}
+SD-Karten erfordern viel Datenübertragung. Deshalb kann die beste Leistung erbracht werden, wenn sie an die Hardware-SPI-Pins eines Mikrocontrollers angeschlossen werden. Dabei wird es wie folgt miteinander verbunden: \cite{ladyada2018}
+\todo[inline]{Hier vielleicht noch das Schema hinzufügen wie es Hardwaremässig implementiert wird.}
+\begin{itemize}
+\item \textbf{5V} und \textbf{GND} Pins jeweils auf die \textbf{5V} und \textbf{GND} Pins des Arduino Mega Boards
+\item \textbf{CLK} auf die Pinnummer \textbf{52}
+\item \textbf{DO} auf die Pinnummer \textbf{50}
+\item \textbf{DI} auf die Pinnummer \textbf{51}
+\item \textbf{CS} auf die Pinnummer \textbf{53}
+\end{itemize}
+\newpage
+
+\subsubsection{SPI (Serial Peripheral Interface)}
+\label{subsubsec:spi}
+\begin{minipage}{0.48\textwidth}
+Das \textit{Serial Peripheral Interface} ist ein synchrones serielles Datenprotokoll (Datenbus) bestehend aus drei Datenleitungen zur Datenübertragung. Diese sind, wie in Abbildung \ref{fig:spi} zu sehen, \textbf{MISO} (Master In Slave Out), \textbf{MOSI} (Master Out Slave In) und \textbf{SCLK} (Serial Clock). Auf dem Breakoutboard (Abb. \ref{fig:muSDBreakout}) sind die Pins mit \textbf{DI} (Data In), \textbf{DO} (Data Out) und \textbf{CLK} (Clock) beschrieben. Zu den Datenleitungen wird noch eine \textbf{SS}- (Slave Select) oder auch \textbf{CS}-Leitung (Chip Select) benötigt. Damit wird vom Master aus den zur momentanen Kommunikation nötigen Slave selektiert. Große Vorteile von SPI sind die Vollduplexfähigkeit und das Taktfrequenzen bis in den MHz-Bereich reichen. \cite{spi}\cite{Wikipedia2018spi}\\
+\end{minipage}
+\begin{minipage}{0.51\textwidth}
+\centering
+\includegraphics[width=\textwidth]{graphics/Datenspeicherung/spi_master_slave.png}
+\captionof{figure}{Einfacher SPI-Datenbus \cite{Wikipedia2018spi}}
+\label{fig:spi}
+\end{minipage}
+\todo[inline]{Möglicherweise noch die Taktfrequenz angeben, resp. die Einstellungen des SPI-Protokolls}
+
+\subsection{$\mu$SD-Karte}
+\begin{minipage}{0.44\textwidth}
+\centering
+\includegraphics[width=0.4\textwidth]{graphics/Datenspeicherung/micro_sd_card_16GB.png}
+\captionof{figure}{16 GB $\mu$SD-Karte \cite{musdkarte}}
+\label{fig:muSDKarte}
+\end{minipage}
+\begin{minipage}{0.55\textwidth}
+Bei der $\mu$SD-Karte muss auf die Kompatibilität mit dem Breakoutboard geachtet werden. Dafür sind folgende Kriterien zu beachten:\\
+\begin{itemize}
+\item Die $\mu$SD-Karte muss FAT16 oder FAT 32 formatiert sein.
+\item Es sind nur die SD und SD High Capacity (SDHC) kompatibel.\\
+\end{itemize}
+\end{minipage}
+Für die Umsetzung dieses Projektes wurde eine $\mu$SD-Karte der SD-Familie SDHC \Romannum{1} verwendet (siehe Abb. \ref{fig:muSDKarte}). SDHC sind Kapazitäten bis zu 32GB möglich und FAT32 formatiert. \cite{muSDspez} \todo[inline]{Es könnte noch auf die Anschlüsse der $\mu$SD-Karte eingegangen werden. Gäbe aber nur Sinn wenn ein Print erstellt werden muss wo das Breakoutboar nachkonstruiert wird.}
+\newpage
+
+\subsection{Implementation in die Firmware}
+Für die Implementation in die Firmware, um mit dem Breakoutboard über SPI zu kommunizieren und die $\mu$SD-Karte zu beschreiben, resp. zu lesen, wurden direkt die bereits existierenden Librarys <SPI.h>\footnote{ <*.h> bezieht sich auf ein include-Verzeichnis unter dem Compiler-Installationsverzeichnis} und <SD.h> von Arduino inkludiert. In der Arduino IDE können bereits vorgefertigte Expample-Codes (siehe Abb. \ref{fig:exampleCodes}) zur weiteren Interpretation, wie mit diesen Librarys $\mu$SD-Karten gelesen und geschrieben werden können, verwendet werden.\\
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.48\textwidth]{graphics/Datenspeicherung/read_write_examples.PNG}
+\caption{Example-Codes der Arduino IDE zum Lesen und Schreiben von SD-Karten.}
+\label{fig:exampleCodes}
+\end{figure}
+
+Für eine übersichtlichere Programmstruktur und einfachere Handhabung wurden die Exampel-Codes für die korrekte Implementation angepasst und in Funktionen verpackt. Die Funktionen sind extern im Headerfile ''SDCard.h''\footnote{ ''*.h'' bezieht sich relativ auf das aktive Projektverzeichnis} deklariert und im SDCard.cpp initialisiert.
+\begin{itemize}
+\item \textcolor{blue}{void} \textcolor{orange}{getCardInformations}():
+\item \textcolor{blue}{void} \textcolor{orange}{readFileSDCard}(\textcolor{Dandelion}{String} filename): 
+\item \textcolor{blue}{void} \textcolor{orange}{writeFileSDCard}(\textcolor{blue}{double} value2save, \textcolor{Dandelion}{String} filename): 
+\item \textcolor{blue}{void} \textcolor{orange}{deleteFileSDCard}(\textcolor{Dandelion}{String} filename): 
+\end{itemize}
+\todo[inline]{Funktionen könnten noch beschrieben werden. Noch Abklären, ob die Fußzeilen nötig sind!}

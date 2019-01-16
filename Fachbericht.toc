@@ -1,0 +1,29 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
+\contentsline {section}{\numberline {2}Auftragsbeschreibung}{2}{section.2}
+\contentsline {section}{\numberline {3}Ziele}{3}{section.3}
+\contentsline {section}{\numberline {4}MCU}{5}{section.4}
+\contentsline {section}{\numberline {5}RTC}{6}{section.5}
+\contentsline {section}{\numberline {6}Sensoren}{7}{section.6}
+\contentsline {subsection}{\numberline {6.1}Messen der Lufttemperatur}{7}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Ermittlung der Niederschlagsmenge}{7}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Anemometer}{11}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}Implementation in die Firmware}{12}{subsubsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.2}Validierung}{12}{subsubsection.6.3.2}
+\contentsline {subsection}{\numberline {6.4}Z\IeC {\"a}hlung der Sonnenstunden}{13}{subsection.6.4}
+\contentsline {section}{\numberline {7}Datenspeicherung}{14}{section.7}
+\contentsline {subsection}{\numberline {7.1}Breakoutboard}{14}{subsection.7.1}
+\contentsline {subsubsection}{\numberline {7.1.1}Verdrahtung}{14}{subsubsection.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.2}SPI (Serial Peripheral Interface)}{15}{subsubsection.7.1.2}
+\contentsline {subsection}{\numberline {7.2}$\mu $SD-Karte}{15}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Implementation in die Firmware}{16}{subsection.7.3}
+\contentsline {section}{\numberline {8}Kommunikationsmodul}{17}{section.8}
+\contentsline {section}{\numberline {9}Energieversorgung}{18}{section.9}
+\contentsline {section}{\numberline {10}Konzeptvalidierung}{19}{section.10}
+\contentsline {section}{Literatur}{20}{section*.21}
+\contentsline {section}{\numberline {A}Lastenheft}{21}{appendix.A}
+\contentsline {section}{\numberline {B}ATmega2560-Arduino Pin Mapping}{22}{appendix.B}

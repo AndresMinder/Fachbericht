@@ -1,0 +1,24 @@
+\BOOKMARK [1][-]{section.1}{1 Einleitung}{}% 1
+\BOOKMARK [1][-]{section.2}{2 Auftragsbeschreibung}{}% 2
+\BOOKMARK [1][-]{section.3}{3 Ziele}{}% 3
+\BOOKMARK [1][-]{section.4}{4 MCU}{}% 4
+\BOOKMARK [1][-]{section.5}{5 RTC}{}% 5
+\BOOKMARK [1][-]{section.6}{6 Sensoren}{}% 6
+\BOOKMARK [2][-]{subsection.6.1}{6.1 Messen der Lufttemperatur}{section.6}% 7
+\BOOKMARK [2][-]{subsection.6.2}{6.2 Ermittlung der Niederschlagsmenge}{section.6}% 8
+\BOOKMARK [2][-]{subsection.6.3}{6.3 Anemometer}{section.6}% 9
+\BOOKMARK [3][-]{subsubsection.6.3.1}{6.3.1 Implementation in die Firmware}{subsection.6.3}% 10
+\BOOKMARK [3][-]{subsubsection.6.3.2}{6.3.2 Validierung}{subsection.6.3}% 11
+\BOOKMARK [2][-]{subsection.6.4}{6.4 Z\344hlung der Sonnenstunden}{section.6}% 12
+\BOOKMARK [1][-]{section.7}{7 Datenspeicherung}{}% 13
+\BOOKMARK [2][-]{subsection.7.1}{7.1 Breakoutboard}{section.7}% 14
+\BOOKMARK [3][-]{subsubsection.7.1.1}{7.1.1 Verdrahtung}{subsection.7.1}% 15
+\BOOKMARK [3][-]{subsubsection.7.1.2}{7.1.2 SPI \(Serial Peripheral Interface\)}{subsection.7.1}% 16
+\BOOKMARK [2][-]{subsection.7.2}{7.2 SD-Karte}{section.7}% 17
+\BOOKMARK [2][-]{subsection.7.3}{7.3 Implementation in die Firmware}{section.7}% 18
+\BOOKMARK [1][-]{section.8}{8 Kommunikationsmodul}{}% 19
+\BOOKMARK [1][-]{section.9}{9 Energieversorgung}{}% 20
+\BOOKMARK [1][-]{section.10}{10 Konzeptvalidierung}{}% 21
+\BOOKMARK [1][-]{section*.21}{Literatur}{}% 22
+\BOOKMARK [1][-]{appendix.A}{A Lastenheft}{}% 23
+\BOOKMARK [1][-]{appendix.B}{B ATmega2560-Arduino Pin Mapping}{}% 24

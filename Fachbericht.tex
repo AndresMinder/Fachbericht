@@ -1,0 +1,84 @@
+\documentclass[final]{fhnwreport}       %[mode] = draft or final
+                                        %{class} = fhnwreport, article, 
+                                        %          report, book, beamer, standalone
+\input{header}			                %loads all packages, definitions and settings												
+\title{\Huge{\textbf{Fachbericht}}\\}          %Project Title
+\author{\huge{Wetterstation mit Solar Energie}}          %Document Type => Technical Report, ...
+\date{Windisch, \today}             %Place and Date
+
+
+\begin{document}
+
+%%---TITLEPAGE---------------------------------------------------------------------------
+\selectlanguage{ngerman}                %ngerman or english
+\maketitle
+%\vspace*{-1cm}
+\vspace*{-0.5cm}						    %compensates the space after the date line.
+\vfill
+\begin{figure}[H]
+\centering
+%\includegraphics[width=\linewidth]{Titelbild.jpg}
+\end{figure}
+\vfill
+
+{
+\renewcommand\arraystretch{2}
+\begin{center}
+\begin{tabular}{>{\bf}p{4cm} l}
+Hochschule                 &    Hochschule für Technik - FHNW\\
+Studiengang                &    Elektro- und Informationstechnik\\
+Autor/-en  		           & 	Mischa Knupfer, Andres Minder\\
+Betreuer                   &    Prof. Dr. Taoufik Nouri\\
+Auftraggeber               &    Prof. Dr. Taoufik Nouri\\
+Version                    &    1.0 %Normally not used!
+\end{tabular}
+\end{center}
+}
+
+\clearpage
+			
+%%---ABSTRACT----------------------------------------------------------------------------
+\selectlanguage{english}				%ngerman or english
+\thispagestyle{empty}
+\include{sections/abstract}
+
+%%---TABLE OF CONTENTS-------------------------------------------------------------------
+\pagenumbering{Roman}		
+\selectlanguage{ngerman}				%ngerman or english
+\tableofcontents
+\clearpage
+
+%%---TEXT--------------------------------------------------------------------------------
+\pagenumbering{arabic}
+\include{sections/einleitung}
+\include{sections/technical/Auftragsbeschreibung}
+\include{sections/organizational/Ziele_p5_p6}
+\include{sections/technical/MCU}
+\include{sections/technical/RTC}
+\include{sections/technical/Sensoren}
+\include{sections/technical/Datenspeicherung}
+\include{sections/technical/Kommunikationsmodul}
+\include{sections/technical/Energieversorgung}
+\include{sections/technical/Konzeptvalidierung}
+
+%%---BIBLIOGRAPHY------------------------------------------------------------------------
+{\sloppypar
+\printbibliography[heading=bibintoc]
+\label{sec:lit}
+%\selectlanguage{english}				%ngerman or english
+%\printbibliography[heading=bibintoc]
+}
+
+%%---APPENDIX----------------------------------------------------------------------------
+\include{sections/appendix}
+
+%%---NOTES for DEBUG---------------------------------------------------------------------
+\ifdraft{%Do this only if mode=draft
+%%requires \usepackage{todonotes})
+\newpage
+\listoftodos[\section{Todo-Notes}]
+\clearpage
+}
+{%Do this only if mode=final
+}
+\end{document}

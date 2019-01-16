@@ -1,0 +1,23 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'Fachbericht.blg'
+[33] biber-MSWIN64:313> INFO - === 
+[63] Biber.pm:371> INFO - Reading 'Fachbericht.bcf'
+[155] Biber.pm:857> INFO - Found 9 citekeys in bib section 0
+[172] Biber.pm:3976> INFO - Processing section 0
+[188] Biber.pm:4136> INFO - Looking for bibtex format file 'literature/bibliography.bib' for section 0
+[191] bibtex.pm:1500> INFO - LaTeX decoding ...
+[206] bibtex.pm:1316> INFO - Found BibTeX data source 'literature/bibliography.bib'
+[211] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'arduinoMega' is not an integer - this will probably not sort properly.
+[215] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'AmazonAnemometer' is not an integer - this will probably not sort properly.
+[218] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'digitalesAnemometerBenetech' is not an integer - this will probably not sort properly.
+[225] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'spi' is not an integer - this will probably not sort properly.
+[225] Utils.pm:193> WARN - Overwriting field 'year' with year value from field 'date' for entry 'spi'
+[231] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'musdkarte' is not an integer - this will probably not sort properly.
+[235] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'muSDspez' is not an integer - this will probably not sort properly.
+[257] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[257] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[257] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[257] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
+[268] bbl.pm:617> INFO - Writing 'Fachbericht.bbl' with encoding 'UTF-8'
+[271] bbl.pm:720> INFO - Output to Fachbericht.bbl
+[276] Biber.pm:110> INFO - WARNINGS: 7
