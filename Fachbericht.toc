@@ -26,7 +26,7 @@
 \contentsline {subsection}{\numberline {10.1}Development Environment}{21}{subsection.10.1}
 \contentsline {subsection}{\numberline {10.2}UML-Diagramm}{21}{subsection.10.2}
 \contentsline {section}{\numberline {11}Konzeptvalidierung}{23}{section.11}
-\contentsline {section}{Literatur}{24}{section*.35}
+\contentsline {section}{Literatur}{24}{section*.36}
 \contentsline {section}{\numberline {A}Lastenheft}{25}{appendix.A}
 \contentsline {section}{\numberline {B}Schema}{26}{appendix.B}
 \contentsline {section}{\numberline {C}PCB-Design (Top View)}{30}{appendix.C}

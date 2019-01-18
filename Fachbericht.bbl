@@ -84,6 +84,72 @@
       \verb https://de.wikipedia.org/wiki/Serial_Peripheral_Interface
       \endverb
     \endentry
+    \entry{mcI2C}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1bef138a504dc5129221cecba2fd4647}{%
+           family={Mikrocontroller},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1bef138a504dc5129221cecba2fd4647}
+      \strng{fullhash}{1bef138a504dc5129221cecba2fd4647}
+      \strng{bibnamehash}{1bef138a504dc5129221cecba2fd4647}
+      \strng{authorbibnamehash}{1bef138a504dc5129221cecba2fd4647}
+      \strng{authornamehash}{1bef138a504dc5129221cecba2fd4647}
+      \strng{authorfullhash}{1bef138a504dc5129221cecba2fd4647}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{howpublished}{Online}
+      \field{month}{5}
+      \field{title}{I$^2$C}
+      \field{urlday}{17}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mikrocontroller.net/articles/I%C2%B2C
+      \endverb
+      \verb{url}
+      \verb https://www.mikrocontroller.net/articles/I%C2%B2C
+      \endverb
+    \endentry
+    \entry{rnI2C}{online}{}
+      \name{author}{1}{}{%
+        {{hash=5bd4892ba5270fbd4f5b15046a838a97}{%
+           family={RN-Wissen},
+           familyi={R\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{5bd4892ba5270fbd4f5b15046a838a97}
+      \strng{fullhash}{5bd4892ba5270fbd4f5b15046a838a97}
+      \strng{bibnamehash}{5bd4892ba5270fbd4f5b15046a838a97}
+      \strng{authorbibnamehash}{5bd4892ba5270fbd4f5b15046a838a97}
+      \strng{authornamehash}{5bd4892ba5270fbd4f5b15046a838a97}
+      \strng{authorfullhash}{5bd4892ba5270fbd4f5b15046a838a97}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{7}
+      \field{howpublished}{Online}
+      \field{month}{6}
+      \field{title}{IIC, Inter-IC bzw. Inter Integrated Circuit Bus}
+      \field{urlday}{17}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://rn-wissen.de/wiki/index.php?title=I2C
+      \endverb
+      \verb{url}
+      \verb https://rn-wissen.de/wiki/index.php?title=I2C
+      \endverb
+    \endentry
     \entry{arduinoMega}{misc}{}
       \name{author}{1}{}{%
         {{hash=ee5bced252ab77ec8d633c1afda7c5da}{%
@@ -96,8 +162,8 @@
       \strng{authorbibnamehash}{ee5bced252ab77ec8d633c1afda7c5da}
       \strng{authornamehash}{ee5bced252ab77ec8d633c1afda7c5da}
       \strng{authorfullhash}{ee5bced252ab77ec8d633c1afda7c5da}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Arduino Mega 2560 Datasheet}}
@@ -126,8 +192,8 @@
       \strng{authorbibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
       \strng{authornamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
       \strng{authorfullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Ersatz Sensor Windgeschwindigkeit für Froggit WH1080 WH3080 WH1090}}
@@ -205,35 +271,6 @@
       \verb https://www.sparkfun.com/datasheets/Sensors/Weather/Weather%20Sensor%20Assembly..pdf
       \endverb
     \endentry
-    \entry{windrichtungsgeber}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=b3b3a6ac74ecbd56bcdbefa4799fb9df}{%
-           family={Amazon},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \strng{fullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \strng{bibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \strng{authorbibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \strng{authornamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \strng{authorfullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{MISOL 1 PCS of Spare part for weather station to test the wind direction}
-      \field{urlday}{17}
-      \field{urlmonth}{1}
-      \field{urlyear}{2019}
-      \field{year}{keine Angabe}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.amazon.de/gp/product/B00QDMBU80/ref=ppx_yo_dt_b_asin_title_o00__o00_s00?ie=UTF8&psc=1
-      \endverb
-      \verb{url}
-      \verb https://www.amazon.de/gp/product/B00QDMBU80/ref=ppx_yo_dt_b_asin_title_o00__o00_s00?ie=UTF8&psc=1
-      \endverb
-    \endentry
     \entry{Bosch2019}{report}{}
       \name{author}{1}{}{%
         {{hash=ecb4e901a9360f3e3ec82e379da0a9d7}{%
@@ -251,8 +288,8 @@
       \strng{authorbibnamehash}{ecb4e901a9360f3e3ec82e379da0a9d7}
       \strng{authornamehash}{ecb4e901a9360f3e3ec82e379da0a9d7}
       \strng{authorfullhash}{ecb4e901a9360f3e3ec82e379da0a9d7}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{9}
@@ -287,8 +324,8 @@
       \strng{authorbibnamehash}{a246da9dbf29558a8a46cc2f0127b341}
       \strng{authornamehash}{a246da9dbf29558a8a46cc2f0127b341}
       \strng{authorfullhash}{a246da9dbf29558a8a46cc2f0127b341}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{17}
@@ -320,8 +357,8 @@
       \strng{authorbibnamehash}{c49b30a6981a942690541959d4048de1}
       \strng{authornamehash}{c49b30a6981a942690541959d4048de1}
       \strng{authorfullhash}{c49b30a6981a942690541959d4048de1}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{SanDisk microSDHC Speicherkarte}}
@@ -349,8 +386,8 @@
       \strng{authorbibnamehash}{c49b30a6981a942690541959d4048de1}
       \strng{authornamehash}{c49b30a6981a942690541959d4048de1}
       \strng{authorfullhash}{c49b30a6981a942690541959d4048de1}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{SD/SDHC/SDXC Spezifikationen und Kompatibilitäten}}
@@ -367,6 +404,8 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{Ada2018}
+  \missing{windrichtungsgeber}
 \endrefsection
 \endinput
 

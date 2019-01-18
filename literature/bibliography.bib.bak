@@ -114,6 +114,7 @@
   urldate = {2018-11-30},
 }
 
+<<<<<<< HEAD
 @Report{Bosch2019,
   author      = {Bosch Sensortec},
   title       = {BME280 Combined humidity and pressure sensor},
@@ -152,6 +153,34 @@
   year    = {keine Angabe},
   url     = {https://www.amazon.de/gp/product/B00QDMBU80/ref=ppx_yo_dt_b_asin_title_o00__o00_s00?ie=UTF8&psc=1},
   urldate = {2019-01-17},
+=======
+@Online{rnI2C,
+  author       = {RN-Wissen},
+  title        = {IIC, Inter-IC bzw. Inter Integrated Circuit Bus},
+  year         = {2014},
+  date         = {2014-06-07},
+  url          = {https://rn-wissen.de/wiki/index.php?title=I2C},
+  urldate      = {2019-01-17},
+  howpublished = {Online},
+}
+
+@Online{mcI2C,
+  author       = {Mikrocontroller},
+  title        = {I$^2$C},
+  date         = {2018-05-27},
+  url          = {https://www.mikrocontroller.net/articles/I%C2%B2C},
+  urldate      = {2019-01-17},
+  howpublished = {Online},
+}
+
+@Report{Ada2018,
+  author      = {Lady Ada},
+  title       = {Adafruit DS3231 Precision RTC Breakout},
+  type        = {Bericht},
+  institution = {Adafruit Industries},
+  year        = {2018},
+  date        = {2018-08-22},
+>>>>>>> master
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

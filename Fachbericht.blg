@@ -1,26 +1,29 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [0] Config.pm:305> INFO - Logfile is 'Fachbericht.blg'
 [34] biber-MSWIN64:313> INFO - === 
-[65] Biber.pm:371> INFO - Reading 'Fachbericht.bcf'
-[160] Biber.pm:857> INFO - Found 11 citekeys in bib section 0
+[66] Biber.pm:371> INFO - Reading 'Fachbericht.bcf'
+[161] Biber.pm:857> INFO - Found 14 citekeys in bib section 0
 [177] Biber.pm:3976> INFO - Processing section 0
 [193] Biber.pm:4136> INFO - Looking for bibtex format file 'literature/bibliography.bib' for section 0
-[199] bibtex.pm:1500> INFO - LaTeX decoding ...
-[223] bibtex.pm:1316> INFO - Found BibTeX data source 'literature/bibliography.bib'
-[229] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'spi' is not an integer - this will probably not sort properly.
-[230] Utils.pm:193> WARN - Overwriting field 'year' with year value from field 'date' for entry 'spi'
-[236] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'arduinoMega' is not an integer - this will probably not sort properly.
-[240] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'AmazonAnemometer' is not an integer - this will probably not sort properly.
-[243] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'digitalesAnemometerBenetech' is not an integer - this will probably not sort properly.
-[246] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'ADSkeineAngabe' is not an integer - this will probably not sort properly.
-[250] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'windrichtungsgeber' is not an integer - this will probably not sort properly.
-[254] Utils.pm:193> WARN - Overwriting field 'year' with year value from field 'date' for entry 'Bosch2019'
-[260] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'musdkarte' is not an integer - this will probably not sort properly.
-[264] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'muSDspez' is not an integer - this will probably not sort properly.
-[285] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[285] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[285] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[285] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
-[298] bbl.pm:617> INFO - Writing 'Fachbericht.bbl' with encoding 'UTF-8'
-[301] bbl.pm:720> INFO - Output to Fachbericht.bbl
-[306] Biber.pm:110> INFO - WARNINGS: 10
+[200] bibtex.pm:1500> INFO - LaTeX decoding ...
+[226] bibtex.pm:1316> INFO - Found BibTeX data source 'literature/bibliography.bib'
+[233] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'spi' is not an integer - this will probably not sort properly.
+[233] Utils.pm:193> WARN - Overwriting field 'year' with year value from field 'date' for entry 'spi'
+[247] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'arduinoMega' is not an integer - this will probably not sort properly.
+[250] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'AmazonAnemometer' is not an integer - this will probably not sort properly.
+[253] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'digitalesAnemometerBenetech' is not an integer - this will probably not sort properly.
+[257] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'ADSkeineAngabe' is not an integer - this will probably not sort properly.
+[260] Utils.pm:193> WARN - Overwriting field 'year' with year value from field 'date' for entry 'Bosch2019'
+[267] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'musdkarte' is not an integer - this will probably not sort properly.
+[270] Utils.pm:193> WARN - year field 'keine Angabe' in entry 'muSDspez' is not an integer - this will probably not sort properly.
+[275] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Anders\AppData\Local\Temp\C3g7vZqUsm\bibliography.bib_8116.utf8, line 118, warning: 11 characters of junk seen at toplevel
+[275] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\Anders\AppData\Local\Temp\C3g7vZqUsm\bibliography.bib_8116.utf8, line 156, warning: 255 characters of junk seen at toplevel
+[276] Utils.pm:193> WARN - I didn't find a database entry for 'Ada2018' (section 0)
+[276] Utils.pm:193> WARN - I didn't find a database entry for 'windrichtungsgeber' (section 0)
+[292] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[292] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[293] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[293] Biber.pm:3810> INFO - No sort tailoring available for locale 'de-DE'
+[306] bbl.pm:617> INFO - Writing 'Fachbericht.bbl' with encoding 'UTF-8'
+[310] bbl.pm:720> INFO - Output to Fachbericht.bbl
+[315] Biber.pm:110> INFO - WARNINGS: 13
