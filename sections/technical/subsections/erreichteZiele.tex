@@ -1,0 +1,43 @@
+\begin{landscape}
+\subsection{Erreichte Ziele}
+\label{erreichteZiele}
+
+Tabelle \ref{tab:ZieleP5erreicht} zeigt die geforderten Ziele, deren Erfüllungsgrad und Verbesserungspotenzial. Die Ziele wurden in Kapitel \ref{chap:Ziele} genauer definiert.\\
+
+%\begin{landscape}
+\begin{table}[htbp]
+  \centering
+  %\small
+  \caption{Ziele P5}
+    \begin{tabular}{l|l|l|l}
+          & \textbf{Ziel} & \multicolumn{1}{l|}{\textbf{Erfüllungsgrad}} & \textbf{Verbesserungspotenzial}  \\
+    \toprule
+    \multicolumn{1}{l}{\textbf{Mussziele P5}} & \multicolumn{1}{r}{} & \multicolumn{1}{r}{} & \multicolumn{1}{r}{}  \\
+    \toprule
+    \multicolumn{1}{l|}{Sensoren}&Lufttemperaturmessung& teilweise erfüllt &  \\
+\cline{2-4}          &Windgeschwindigkeitsmessung& komplett erfüllt &Referenzmessungen \\
+\cline{2-4} &Niederschlagsmenge&teilweise erfüllt& Vergrösserung der Referenzfläche \\
+    \hline
+    \multicolumn{1}{l|}{Datenspeicherung}&Datenabfrage via Putty&komplett erfüllt& \\
+    \hline
+    \multicolumn{1}{l|}{RTC} &Implementation&komplett erfüllt& \\
+\bottomrule
+\multicolumn{1}{l}{\textbf{Wunschziele P5}} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{} & \multicolumn{1}{l}{}  \\
+    \toprule
+    \multicolumn{1}{l|}{Sensoren}&Sonnenstunden Prototyp&nicht erfüllt &  \\
+    \bottomrule
+    \multicolumn{1}{l}{\textbf{Zusätzliche Implementationen P5}} & \multicolumn{1}{r}{} & \multicolumn{1}{r}{} & \multicolumn{1}{r}{}  \\
+    \toprule
+    \multicolumn{1}{l|}{Sensoren}&Luftfeuchtigkeitsmessung& komplett erfüllt &  \\
+\cline{2-4}          &Luftdruckmessung& komplett erfüllt & \\
+\cline{2-4} &Windrichtungsmessung&komplett erfüllt& Genauere Richtungsangabe \\
+    
+\bottomrule
+
+    \end{tabular}%
+  \label{tab:ZieleP5erreicht}%
+\end{table}%
+%\end{landscape}
+
+Der Tabelle \ref{tab:ZieleP5erreicht} kann entnommen werden, dass die meisten Ziele komplett erfüllt wurden. Das Wunschziel \textit{Sonnenstunden Prototyp} wurde nicht erreicht, da durch die Implementation weiterer Sensoren die Zeit dafür nicht mehr reichte. Das Mussziel \textit{Lufttemperaturmessung} wurde nur teilweise erfüllt, da der benutzte Sensor im Bereich von [-20;0]$^\circ$C eine Abweichung von $\pm$1.25$^\circ$C anstelle der geforderten $\pm$1$^\circ$C aufweist. Angesichts der klimatischen Verhältnisse in subtropischen Gebieten, für die diese Wetterstation entwickelt wird, ist dies jedoch vernachlässigbar, da die Temperatur in der Regel nie unter 0$^\circ$C fällt \cite{subtropklima}. Das Mussziel \textit{Niederschlagsmenge} wurde nur teilweise erfüllt, da der benutzte Sensor eine kleine Trichterfläche hat und mit dem Skalierungsfaktor in der Software eine zu hohe Abweichung vom geforderten Genauigkeitsziel besitzt. Dem kann Abhilfe geschaffen werden, indem die Trichterfläche vergrössert wird. Die \textit{Windrichtungsmessung} wurde zusätzlich implementiert und weist schwächen in Bezug der Windrichtungsangabe auf, welche Optimierungsbedarf erfordern. 
+\end{landscape}

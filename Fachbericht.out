@@ -8,21 +8,25 @@
 \BOOKMARK [2][-]{subsection.5.2}{5.2 I2C}{section.5}% 8
 \BOOKMARK [1][-]{section.6}{6 MCU}{}% 9
 \BOOKMARK [1][-]{section.7}{7 RTC}{}% 10
-\BOOKMARK [1][-]{section.8}{8 Sensoren}{}% 11
-\BOOKMARK [2][-]{subsection.8.1}{8.1 Ombrometer}{section.8}% 12
-\BOOKMARK [2][-]{subsection.8.2}{8.2 Anemometer}{section.8}% 13
-\BOOKMARK [2][-]{subsection.8.3}{8.3 Windrichtungsgeber}{section.8}% 14
-\BOOKMARK [2][-]{subsection.8.4}{8.4 BME280}{section.8}% 15
-\BOOKMARK [1][-]{section.9}{9 Datenspeicherung}{}% 16
-\BOOKMARK [2][-]{subsection.9.1}{9.1 Breakoutboard}{section.9}% 17
-\BOOKMARK [2][-]{subsection.9.2}{9.2 SD-Karte}{section.9}% 18
-\BOOKMARK [2][-]{subsection.9.3}{9.3 Implementation in die Firmware}{section.9}% 19
-\BOOKMARK [1][-]{section.10}{10 Firmware}{}% 20
-\BOOKMARK [2][-]{subsection.10.1}{10.1 Development Environment}{section.10}% 21
-\BOOKMARK [2][-]{subsection.10.2}{10.2 UML-Diagramm}{section.10}% 22
-\BOOKMARK [1][-]{section.11}{11 Konzeptvalidierung}{}% 23
-\BOOKMARK [1][-]{section*.36}{Literatur}{}% 24
-\BOOKMARK [1][-]{appendix.A}{A Lastenheft}{}% 25
-\BOOKMARK [1][-]{appendix.B}{B Schema}{}% 26
-\BOOKMARK [1][-]{appendix.C}{C PCB-Design \(Top View\)}{}% 27
-\BOOKMARK [1][-]{appendix.D}{D 3D-Modellierung}{}% 28
+\BOOKMARK [2][-]{subsection.7.1}{7.1 Implementation in die Firmware}{section.7}% 11
+\BOOKMARK [1][-]{section.8}{8 Sensoren}{}% 12
+\BOOKMARK [2][-]{subsection.8.1}{8.1 Ombrometer}{section.8}% 13
+\BOOKMARK [2][-]{subsection.8.2}{8.2 Anemometer}{section.8}% 14
+\BOOKMARK [2][-]{subsection.8.3}{8.3 Windrichtungsgeber}{section.8}% 15
+\BOOKMARK [2][-]{subsection.8.4}{8.4 BME280}{section.8}% 16
+\BOOKMARK [1][-]{section.9}{9 Datenspeicherung}{}% 17
+\BOOKMARK [2][-]{subsection.9.1}{9.1 Breakoutboard}{section.9}% 18
+\BOOKMARK [2][-]{subsection.9.2}{9.2 SD-Karte}{section.9}% 19
+\BOOKMARK [2][-]{subsection.9.3}{9.3 Implementation in die Firmware}{section.9}% 20
+\BOOKMARK [1][-]{section.10}{10 Firmware}{}% 21
+\BOOKMARK [2][-]{subsection.10.1}{10.1 Development Environment}{section.10}% 22
+\BOOKMARK [2][-]{subsection.10.2}{10.2 UML-Diagramm}{section.10}% 23
+\BOOKMARK [1][-]{section.11}{11 Konzeptvalidierung}{}% 24
+\BOOKMARK [2][-]{subsection.11.1}{11.1 Validierung der Sensorik}{section.11}% 25
+\BOOKMARK [2][-]{subsection.11.2}{11.2 Validierung der Firmware}{section.11}% 26
+\BOOKMARK [2][-]{subsection.11.3}{11.3 Erreichte Ziele}{section.11}% 27
+\BOOKMARK [1][-]{section*.38}{Literatur}{}% 28
+\BOOKMARK [1][-]{appendix.A}{A Lastenheft}{}% 29
+\BOOKMARK [1][-]{appendix.B}{B Schema}{}% 30
+\BOOKMARK [1][-]{appendix.C}{C PCB-Design \(Top View\)}{}% 31
+\BOOKMARK [1][-]{appendix.D}{D 3D-Modellierung}{}% 32

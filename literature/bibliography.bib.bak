@@ -146,8 +146,7 @@
   url         = {https://www.sparkfun.com/datasheets/Sensors/Weather/Weather%20Sensor%20Assembly..pdf},
   urldate     = {2019-01-17},
 }
-
-@Misc{windrichtungsgeber,
+{windrichtungsgeber,
   author  = {Amazon},
   title   = {MISOL 1 PCS of Spare part for weather station to test the wind direction},
   year    = {keine Angabe},
@@ -173,14 +172,23 @@
   howpublished = {Online},
 }
 
-@Report{Ada2018,
-  author      = {Lady Ada},
-  title       = {Adafruit DS3231 Precision RTC Breakout},
-  type        = {Bericht},
-  institution = {Adafruit Industries},
-  year        = {2018},
-  date        = {2018-08-22},
->>>>>>> master
+@Report{DS3231DS,
+  author      = {Maxim Integrated},
+  title       = {DS3231 Extremely Accurate I$^2$C-Integrated RTC/TCXO/Crystal},
+  type        = {Datasheet},
+  institution = {Maxim Integrated Products Inc.},
+  year        = {2015},
+  date        = {2018-09-25},
+  url         = {https://www.maximintegrated.com/en/products/digital/real-time-clocks/DS3231.html},
+  urldate     = {2019-01-16},
+}
+
+@Online{subtropklima,
+  author  = {Matthias Forkel},
+  title   = {Infoblatt Subtropische Klimazone},
+  year    = {2012},
+  url     = {https://www.klett.de/alias/1018441},
+  urldate = {2019-01-18},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

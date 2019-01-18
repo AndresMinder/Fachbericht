@@ -3,31 +3,35 @@
 \babel@toc {ngerman}{}
 \babel@toc {english}{}
 \babel@toc {ngerman}{}
-\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
-\contentsline {section}{\numberline {2}Auftragsbeschreibung}{2}{section.2}
-\contentsline {section}{\numberline {3}Ziele}{3}{section.3}
-\contentsline {section}{\numberline {4}Konzept}{4}{section.4}
-\contentsline {subsection}{\numberline {4.1}Prototyping}{4}{subsection.4.1}
-\contentsline {section}{\numberline {5}Interfaces}{5}{section.5}
-\contentsline {subsection}{\numberline {5.1}SPI (Serial Peripheral Interface)}{5}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}I$^{2}$C}{5}{subsection.5.2}
-\contentsline {section}{\numberline {6}MCU}{6}{section.6}
-\contentsline {section}{\numberline {7}RTC}{7}{section.7}
-\contentsline {section}{\numberline {8}Sensoren}{8}{section.8}
-\contentsline {subsection}{\numberline {8.1}Ombrometer}{8}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Anemometer}{12}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}Windrichtungsgeber}{14}{subsection.8.3}
-\contentsline {subsection}{\numberline {8.4}BME280}{16}{subsection.8.4}
-\contentsline {section}{\numberline {9}Datenspeicherung}{18}{section.9}
-\contentsline {subsection}{\numberline {9.1}Breakoutboard}{18}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}$\mu $SD-Karte}{19}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Implementation in die Firmware}{20}{subsection.9.3}
-\contentsline {section}{\numberline {10}Firmware}{21}{section.10}
-\contentsline {subsection}{\numberline {10.1}Development Environment}{21}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}UML-Diagramm}{21}{subsection.10.2}
-\contentsline {section}{\numberline {11}Konzeptvalidierung}{23}{section.11}
-\contentsline {section}{Literatur}{24}{section*.36}
-\contentsline {section}{\numberline {A}Lastenheft}{25}{appendix.A}
-\contentsline {section}{\numberline {B}Schema}{26}{appendix.B}
-\contentsline {section}{\numberline {C}PCB-Design (Top View)}{30}{appendix.C}
-\contentsline {section}{\numberline {D}3D-Modellierung}{31}{appendix.D}
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}% 
+\contentsline {section}{\numberline {2}Auftragsbeschreibung}{2}{section.2}% 
+\contentsline {section}{\numberline {3}Ziele}{3}{section.3}% 
+\contentsline {section}{\numberline {4}Konzept}{4}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Prototyping}{4}{subsection.4.1}% 
+\contentsline {section}{\numberline {5}Interfaces}{5}{section.5}% 
+\contentsline {subsection}{\numberline {5.1}SPI (Serial Peripheral Interface)}{5}{subsection.5.1}% 
+\contentsline {subsection}{\numberline {5.2}I$^{2}$C}{5}{subsection.5.2}% 
+\contentsline {section}{\numberline {6}MCU}{6}{section.6}% 
+\contentsline {section}{\numberline {7}RTC}{7}{section.7}% 
+\contentsline {subsection}{\numberline {7.1}Implementation in die Firmware}{8}{subsection.7.1}% 
+\contentsline {section}{\numberline {8}Sensoren}{9}{section.8}% 
+\contentsline {subsection}{\numberline {8.1}Ombrometer}{9}{subsection.8.1}% 
+\contentsline {subsection}{\numberline {8.2}Anemometer}{13}{subsection.8.2}% 
+\contentsline {subsection}{\numberline {8.3}Windrichtungsgeber}{15}{subsection.8.3}% 
+\contentsline {subsection}{\numberline {8.4}BME280}{17}{subsection.8.4}% 
+\contentsline {section}{\numberline {9}Datenspeicherung}{19}{section.9}% 
+\contentsline {subsection}{\numberline {9.1}Breakoutboard}{19}{subsection.9.1}% 
+\contentsline {subsection}{\numberline {9.2}$\mu $SD-Karte}{20}{subsection.9.2}% 
+\contentsline {subsection}{\numberline {9.3}Implementation in die Firmware}{21}{subsection.9.3}% 
+\contentsline {section}{\numberline {10}Firmware}{22}{section.10}% 
+\contentsline {subsection}{\numberline {10.1}Development Environment}{22}{subsection.10.1}% 
+\contentsline {subsection}{\numberline {10.2}UML-Diagramm}{22}{subsection.10.2}% 
+\contentsline {section}{\numberline {11}Konzeptvalidierung}{24}{section.11}% 
+\contentsline {subsection}{\numberline {11.1}Validierung der Sensorik}{24}{subsection.11.1}% 
+\contentsline {subsection}{\numberline {11.2}Validierung der Firmware}{24}{subsection.11.2}% 
+\contentsline {subsection}{\numberline {11.3}Erreichte Ziele}{25}{subsection.11.3}% 
+\contentsline {section}{Literatur}{26}{section*.38}% 
+\contentsline {section}{\numberline {A}Lastenheft}{27}{appendix.A}% 
+\contentsline {section}{\numberline {B}Schema}{28}{appendix.B}% 
+\contentsline {section}{\numberline {C}PCB-Design (Top View)}{32}{appendix.C}% 
+\contentsline {section}{\numberline {D}3D-Modellierung}{33}{appendix.D}% 
