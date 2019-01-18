@@ -1,0 +1,194 @@
+% Encoding: UTF-8
+
+@Online{MeteoSchweizFeuchte,
+  author = {MeteoSchweiz},
+  title  = {Standardnormwerte 1961-1990: Relative Luftfeuchtigkeit 2m},
+  year   = {2016},
+  url    = {https://www.meteoschweiz.admin.ch/product/input/climate-data/normwerte-pro-messgroesse/np6190/nvrep_np6190_ure200m0_d.pdf},
+}
+
+@Online{MeteoSchweizWindnorm,
+  author = {MeteoSchweiz},
+  title  = {Normwerte 1981-2010: Windgeschwindigkeit skalar},
+  year   = {2018},
+  url    = {https://www.meteoschweiz.admin.ch/product/input/climate-data/normwerte-pro-messgroesse/np8110/nvrep_np8110_fkl010m0_d.pdf},
+}
+
+@Online{WikiDruck,
+  author       = {Wikipedia},
+  title        = {Drucksensor},
+  year         = {2018},
+  url          = {https://de.wikipedia.org/wiki/Drucksensor},
+  howpublished = {Online},
+}
+
+@Online{MeteoSchweizDruck,
+  author = {MeteoSchweiz},
+  title  = {Normwerte 1981-2010: Luftdruck auf Stationshöhe},
+  year   = {2016},
+  url    = {https://www.meteoschweiz.admin.ch/product/input/climate-data/normwerte-pro-messgroesse/np8110/nvrep_np8110_prestam0_d.pdf},
+}
+
+@Online{MeteoSchweizExtrem,
+  author = {MeteoSchweiz},
+  title  = {Rekorde und Extreme},
+  year   = {2018},
+  url    = {https://www.meteoschweiz.admin.ch/home/klima/klima-der-schweiz/rekorde-und-extreme.html},
+}
+
+@Report{ladyada2018,
+  author      = {{Lady Ada}},
+  title       = {{Micro SD Card Breakout Board Tutorial}},
+  type        = {Bericht},
+  institution = {Adafruit Industries},
+  year        = {2018},
+  date        = {2018-09-17},
+  url         = {https://cdn-learn.adafruit.com/downloads/pdf/adafruit-micro-sd-breakout-board-card-tutorial.pdf?timestamp=1543256513},
+  urldate     = {2018-11-28},
+}
+
+@Online{spi,
+  author  = {mikrocontroller.net},
+  title   = {Serial Peripheral Interface},
+  year    = {keine Angabe},
+  date    = {2018-11-28},
+  url     = {https://www.mikrocontroller.net/articles/Serial_Peripheral_Interface},
+  urldate = {2018-11-28},
+}
+
+@Online{Wikipedia2018spi,
+  author  = {Wikipedia},
+  title   = {Serial Peripheral Interface},
+  year    = {2018},
+  date    = {2018-11-28},
+  url     = {https://de.wikipedia.org/wiki/Serial_Peripheral_Interface},
+  urldate = {2018-11-28},
+}
+
+@Online{musdkarte,
+  author  = {SanDisk},
+  title   = {{SanDisk microSDHC Speicherkarte}},
+  year    = {keine Angabe},
+  url     = {https://www.sandisk.de/home/memory-cards/microsd-cards/sandisk-microsd},
+  urldate = {2018-11-27},
+}
+
+@Online{muSDspez,
+  author  = {SanDisk},
+  title   = {{SD/SDHC/SDXC Spezifikationen und Kompatibilitäten}},
+  year    = {keine Angabe},
+  url     = {https://kb-de.sandisk.com/app/answers/detail/a_id/8317/~/sd%2Fsdhc%2Fsdxc-spezifikationen-und-kompatibilit%C3%A4ten},
+  urldate = {2018-11-27},
+}
+
+@Online{AmazonAnemometer,
+  author  = {Amazon},
+  title   = {{Ersatz Sensor Windgeschwindigkeit für Froggit WH1080 WH3080 WH1090}},
+  year    = {keine Angabe},
+  url     = {https://www.amazon.de/Ersatz-Sensor-Windgeschwindigkeit-Froggit-WH1080/dp/B00GGM5HEA/ref=pd_rhf_eetyp_p_img_1?_encoding=UTF8&psc=1&refRID=4R5P7RRF8H7RC3A4KAHQ},
+  urldate = {2018-11-30},
+}
+
+@Online{digitalesAnemometerBenetech,
+  author  = {Amazon},
+  title   = {{Benetech GM8908 Digital Anemometer}},
+  year    = {keine Angabe},
+  url     = {https://www.amazon.com/Benetech-GM8908-Digital-Anemometer-10/dp/B074TDR5YQ},
+  urldate = {2018-11-30},
+}
+
+@Misc{arduinoMega,
+  author  = {Arduino},
+  title   = {{Arduino Mega 2560 Datasheet}},
+  year    = {keine Angabe},
+  type    = {techreport},
+  url     = {https://www.robotshop.com/media/files/pdf/arduinomega2560datasheet.pdf},
+  urldate = {2018-11-30},
+}
+
+@Online{ArduinoPinMapping2018,
+  author  = {Arduino},
+  title   = {{ATmega2560-Arduino Pin Mapping}},
+  year    = {2018},
+  url     = {https://www.arduino.cc/en/Hacking/PinMapping2560},
+  urldate = {2018-11-30},
+}
+
+<<<<<<< HEAD
+@Report{Bosch2019,
+  author      = {Bosch Sensortec},
+  title       = {BME280 Combined humidity and pressure sensor},
+  type        = {Datasheet},
+  institution = {Bosch},
+  year        = {2019},
+  date        = {2018-09},
+  url         = {https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf},
+  urldate     = {2019-01-16},
+}
+
+@Report{LadyAdabme2802018,
+  author      = {{Lady Ada}},
+  title       = {Adafruit BME280 Humidity + Barometric Pressure + Temperature Sensor Breakout},
+  type        = {Bericht},
+  institution = {Adafruit Industries},
+  year        = {2018},
+  date        = {2018-09-25},
+  url         = {https://cdn-learn.adafruit.com/downloads/pdf/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout.pdf?timestamp=1547640383},
+  urldate     = {2019-01-16},
+}
+
+@Report{ADSkeineAngabe,
+  author      = {{Argent Data Systems}},
+  title       = {Weather Sensor Assembly p/n 80422},
+  type        = {Bericht},
+  institution = {Argent Data Systems},
+  year        = {keine Angabe},
+  url         = {https://www.sparkfun.com/datasheets/Sensors/Weather/Weather%20Sensor%20Assembly..pdf},
+  urldate     = {2019-01-17},
+}
+{windrichtungsgeber,
+  author  = {Amazon},
+  title   = {MISOL 1 PCS of Spare part for weather station to test the wind direction},
+  year    = {keine Angabe},
+  url     = {https://www.amazon.de/gp/product/B00QDMBU80/ref=ppx_yo_dt_b_asin_title_o00__o00_s00?ie=UTF8&psc=1},
+  urldate = {2019-01-17},
+=======
+@Online{rnI2C,
+  author       = {RN-Wissen},
+  title        = {IIC, Inter-IC bzw. Inter Integrated Circuit Bus},
+  year         = {2014},
+  date         = {2014-06-07},
+  url          = {https://rn-wissen.de/wiki/index.php?title=I2C},
+  urldate      = {2019-01-17},
+  howpublished = {Online},
+}
+
+@Online{mcI2C,
+  author       = {Mikrocontroller},
+  title        = {I$^2$C},
+  date         = {2018-05-27},
+  url          = {https://www.mikrocontroller.net/articles/I%C2%B2C},
+  urldate      = {2019-01-17},
+  howpublished = {Online},
+}
+
+@Report{Ada2018,
+  author      = {Lady Ada},
+  title       = {Adafruit DS3231 Precision RTC Breakout},
+  type        = {Bericht},
+  institution = {Adafruit Industries},
+  year        = {2018},
+  date        = {2018-08-22},
+}
+
+@Misc{windrichtungsgeber,
+  author  = {Amazon},
+  title   = {MISOL 1 PCS of Spare part for weather station to test the wind direction},
+  year    = {keine Angabe},
+  url     = {https://www.amazon.de/gp/product/B00QDMBU80/ref=ppx_yo_dt_b_asin_title_o00__o00_s00?ie=UTF8&psc=1},
+  urldate = {2019-01-17},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}
+
+% Encoding: UTF-8
