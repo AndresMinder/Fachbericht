@@ -3,28 +3,34 @@
 \babel@toc {ngerman}{}
 \babel@toc {english}{}
 \babel@toc {ngerman}{}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Prototyping mittels Breakoutboards\relax }}{5}{figure.caption.4}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Einfacher SPI-Datenbus \cite {Wikipedia2018spi}\relax }}{6}{figure.1}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Arduino Mega Board \cite [S.1]{arduinoMega}\relax }}{7}{figure.1}
-\contentsline {figure}{\numberline {7.1}{\ignorespaces DS3231 mit seinen Anschl\IeC {\"u}ssen \cite {Ada2018}.\relax }}{8}{figure.caption.7}
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Darstellung des Kippl\IeC {\"o}ffelprinzips\relax }}{9}{figure.caption.10}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Selbsterstellter Kippl\IeC {\"o}ffel.\relax }}{10}{figure.caption.12}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Selbsterstelltes Ger\IeC {\"u}st.\relax }}{11}{figure.caption.13}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Schaltkreis zur detektion der Kippbewegung.\relax }}{12}{figure.caption.14}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Anemometer \cite {AmazonAnemometer}\relax }}{13}{figure.5}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces RJ-11 Stecker\relax }}{13}{figure.6}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Beschaltung des Ausgangs des Anemometers.\relax }}{13}{figure.7}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Ausgangssignal $V_{out}$\relax }}{13}{figure.8}
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Graph der Messwerte\relax }}{14}{figure.9}
-\contentsline {figure}{\numberline {8.10}{\ignorespaces Digitales Anemometer (Benetech GM8908) mit einer Aufl\IeC {\"o}sung von $0.1m/s$ und einer Unsicherheit von $\pm 5\%$ \cite {digitalesAnemometerBenetech}\relax }}{14}{figure.10}
-\contentsline {figure}{\numberline {8.11}{\ignorespaces Interne Schaltung \cite {ADSkeineAngabe}\relax }}{15}{figure.11}
-\contentsline {figure}{\numberline {8.12}{\ignorespaces Spannungsteiler mit $R=10k\Omega $ \cite {ADSkeineAngabe}\relax }}{16}{figure.12}
-\contentsline {figure}{\numberline {8.13}{\ignorespaces Windrichtungsgeber von MISOL \cite {windrichtungsgeber}\relax }}{16}{figure.13}
-\contentsline {figure}{\numberline {8.14}{\ignorespaces BME280 \cite {Bosch2019}\relax }}{17}{figure.14}
-\contentsline {figure}{\numberline {9.1}{\ignorespaces 254 $\mu $SD-Breakoutboard von Adafruit \cite {ladyada2018}\relax }}{19}{figure.caption.30}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces 16 GB $\mu $SD-Karte \cite {musdkarte}\relax }}{20}{figure.2}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Example-Codes der Arduino IDE zum Lesen und Schreiben von SD-Karten.\relax }}{21}{figure.caption.34}
-\contentsline {figure}{\numberline {10.1}{\ignorespaces UML-Diagramm der Wetterstation\relax }}{23}{figure.caption.36}
-\contentsline {figure}{\numberline {D.1}{\ignorespaces Top View\relax }}{33}{figure.caption.40}
-\contentsline {figure}{\numberline {D.2}{\ignorespaces Bottom View\relax }}{33}{figure.caption.41}
-\contentsline {figure}{\numberline {D.3}{\ignorespaces Side View\relax }}{33}{figure.caption.42}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Grundkonzept\relax }}{4}{figure.caption.4}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Modul Sensoren mit den verwendeten Sensoren und Messf\IeC {\"u}hlern\relax }}{5}{figure.caption.5}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Prototyping mittels Breakoutboards\relax }}{6}{figure.caption.6}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces BME280 Breakoutboard \cite {LadyAdabme2802018}\relax }}{6}{figure.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces DS3231 Breakoutboard \cite {LadyAda2018ds3231}\relax }}{6}{figure.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces $\mu $SD-Card Breakoutboard \cite {ladyada2018}\relax }}{6}{figure.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Datenausgabe\relax }}{7}{figure.7}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Einfacher SPI-Datenbus \cite {Wikipedia2018spi}\relax }}{8}{figure.1}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Arduino Mega Board \cite [S.1]{arduinoMega}\relax }}{9}{figure.1}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces DS3231 mit seinen Anschl\IeC {\"u}ssen \cite {Ada2018}.\relax }}{10}{figure.caption.9}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Darstellung des Kippl\IeC {\"o}ffelprinzips\relax }}{11}{figure.caption.12}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Selbsterstellter Kippl\IeC {\"o}ffel.\relax }}{12}{figure.caption.14}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Selbsterstelltes Ger\IeC {\"u}st.\relax }}{13}{figure.caption.15}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Schaltkreis zur detektion der Kippbewegung.\relax }}{14}{figure.caption.16}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Anemometer \cite {AmazonAnemometer}\relax }}{15}{figure.5}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces RJ-11 Stecker\relax }}{15}{figure.6}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Beschaltung des Ausgangs des Anemometers.\relax }}{15}{figure.7}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Ausgangssignal $V_{out}$\relax }}{15}{figure.8}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Graph der Messwerte\relax }}{16}{figure.9}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Digitales Anemometer (Benetech GM8908) mit einer Aufl\IeC {\"o}sung von $0.1m/s$ und einer Unsicherheit von $\pm 5\%$ \cite {digitalesAnemometerBenetech}\relax }}{16}{figure.10}
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Interne Schaltung \cite {ADSkeineAngabe}\relax }}{17}{figure.11}
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Spannungsteiler mit $R=10k\Omega $ \cite {ADSkeineAngabe}\relax }}{18}{figure.12}
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Windrichtungsgeber von MISOL \cite {windrichtungsgeber}\relax }}{18}{figure.13}
+\contentsline {figure}{\numberline {8.14}{\ignorespaces BME280 \cite {Bosch2019}\relax }}{19}{figure.14}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces 254 $\mu $SD-Breakoutboard von Adafruit \cite {ladyada2018}\relax }}{21}{figure.caption.32}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces 16 GB $\mu $SD-Karte \cite {musdkarte}\relax }}{22}{figure.2}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Example-Codes der Arduino IDE zum Lesen und Schreiben von SD-Karten.\relax }}{23}{figure.caption.36}
+\contentsline {figure}{\numberline {10.1}{\ignorespaces UML-Diagramm der Wetterstation\relax }}{25}{figure.caption.38}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Top View\relax }}{36}{figure.caption.42}
+\contentsline {figure}{\numberline {D.2}{\ignorespaces Bottom View\relax }}{36}{figure.caption.43}
+\contentsline {figure}{\numberline {D.3}{\ignorespaces Side View\relax }}{36}{figure.caption.44}

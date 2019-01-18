@@ -189,6 +189,15 @@
   urldate = {2019-01-17},
 }
 
+@Report{LadyAda2018ds3231,
+  author      = {{Lady Ada}},
+  title       = {Adafruit DS3231 Precision RTC Breakout},
+  type        = {Bericht},
+  institution = {Adafruit Industries},
+  year        = {2018},
+  date        = {2018-08-22},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
 
 % Encoding: UTF-8
