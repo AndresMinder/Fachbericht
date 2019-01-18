@@ -65,9 +65,22 @@ Der Schaltkreis, welcher die Kippbewegungen feststellen soll, besteht im wesentl
 
 Abbildung \ref{fig:KippSchalt} zeigt den Schaltkreis zur detektion der Kippbewegung. Benutzt wurde ein 10k$\Omega$ Widerstand mit einem parallel angeschlossenen 100nF Kondensator. Der Reedkontakt reagiert auf den ebenso sichtbaren Permanentmagneten, welcher an der Unterseite des Kipplöffels befestigt ist.
 
+\newpage
 \paragraph{Nachteile des Selbstgebauten Niederschlagsmengensensor}
-Der selbstgebaute Niederschlagssensor beweist, dass das Prinzip des Kipplöffels funktioniert. Dennoch weist der Selbstbau Mängel auf. Der verwendete Permanentmagnet muss geklebt werden, weshalb dessen Magnetfeld massiv an stärke verliert und die Schaltung deshalb äusserst nahe angebracht werden muss. Ausserdem kam es, dadurch dass keine Werkstatt zugänglich war, zu Improvisation bei nahezu allen Fertigungsschritten, was zu unkalkulierbaren Abweichungen führt. Als Beispiel sei das Spiel der drehbaren Lagerung des Kipplöffels auf dem Gerüst angeführt, was jegliche Justierungsversuche der Niederschlagsmenge beeinflusst. Aus den genannten Gründen wird vorgefertigter Sensor mit Kipplöffelprinzip verwendet.
+Der selbstgebaute Niederschlagssensor beweist, dass das Prinzip des Kipplöffels funktioniert. Dennoch weist der Selbstbau Mängel auf. Der verwendete Permanentmagnet muss geklebt werden, weshalb dessen Magnetfeld massiv an stärke verliert und die Schaltung deshalb äusserst nahe angebracht werden muss. Ausserdem kam es, dadurch dass keine Werkstatt zugänglich war, zu Improvisation bei nahezu allen Fertigungsschritten, was zu unkalkulierbaren Abweichungen führt. Als Beispiel sei das Spiel der drehbaren Lagerung des Kipplöffels auf dem Gerüst angeführt, was jegliche Justierungsversuche der Niederschlagsmenge beeinflusst. Aus den genannten Gründen wird vorgefertigter Sensor mit Kipplöffelprinzip verwendet.\\
 
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=0.7\textwidth]{graphics/ombrometer/IMG_20190118_110027.jpg}
+\caption{Das Ombrometer}
+\label{fig:verwendetes_ombrometer}
+\end{figure}
+
+Das verwendete Ombrometer von MISOL hat eine Auflösung von ca. 2ml pro Kippbewegung auf auf die Dimensionen $5.5E-2m*11.5E-2m$ des Trichters. Zudem enthält der Trichter oben noch eine kleine Wasserwaage, damit das Ombrometer auch gerade steht und die gemessene Regenmenge nicht verfälscht wird.\\
 
 \subsubsection*{Implentation in der Firmware}
-\subsubsection*{Validierung der Niederschlagsmessung}
+Die Implementation wurde über einen Interrupt-Pin des ATMega2560 gemacht. Jedes mal wenn der Kipplöffel des Ombrometers kippt, wird ein Interrupt der auf die steigende Flanke des anliegenden Signals getriggert ist ausgeführt, welcher einen Counter für das Ombrometer inkrementiert. Eine Kippbewegung des Ombrometers umfasst ca. 2ml auf eine Fläche von $5.5E-2m*11.5E-2m=\underline{\underline{6.325E-3m^{2}}}$. Hochgerechnet auf einen Quadratmeter ergibt sich
+\begin{equation}
+2ml*\dfrac{1m^{2}}{6.325E-3m^{2}} = \underline{\underline{316.21ml}}
+\end{equation}
+benötigter Niederschlag für eine Kippbewegung des Ombrometers pro Quadratmeter. Nun kann die Niederschlagmenge in einem bestimmten Zeitraum ausgegeben werden.\\

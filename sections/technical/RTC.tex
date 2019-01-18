@@ -10,10 +10,11 @@ Um die gewonnenen Messdaten mit einem Zeitstempel zu versehen, wird eine \textbf
 \end{figure}
 
 Die Anschlüsse des \textbf{DS3231} sind \textbf{VCC}, \textbf{GND}, \textbf{SCL}, \textbf{SDA}, \textbf{BAT}, \textbf{32K}, \textbf{SQW} und \textbf{RST}. \textbf{VCC} und \textbf{GND} werden für die Speisung benötigt. \textbf{SCL} und \textbf{SDA} sind Anschlüsse für den \textbf{I$^2$C}-Bus. \textbf{BAT} ist der positive Anschluss der Knopfbatterie, worüber deren Zustand kontrolliert werden, etwas anderes gespiesen oder eine andere Battery als Backup angeschlossen werden kann. \textbf{32K} ist ein Anschlusspin um den Output des 32kHz-Oszillators des \textbf{RTC} abzugreifen, was jedoch nicht verwendet wird. \textbf{SQW} ist ein zusätzlicher Output- oder Interrupt-Pin, welcher jedoch auch nicht verwendet wird. \textbf{RST} wird verwendet, um ein externes Element zu reseten oder als Indikator wenn die Hauptspeisung unterbrochen wird. \cite{DS3231DS}\\
-Die relevanten Spezifikationen des Chips sind in Tabelle \ref{tab:DS3231} aufgelistet.\\
 
 \newpage
-\begin{table}
+Die relevanten Spezifikationen des Chips sind in Tabelle \ref{tab:DS3231} aufgelistet.\\
+
+\begin{table}[h]
 \begin{tabular}{llllll}
 \hline 
 \textbf{Parameter} & \textbf{Min.} & \textbf{Typ.} & \textbf{Max.} & \textbf{Einheit} & \textbf{Condition} \\ 
