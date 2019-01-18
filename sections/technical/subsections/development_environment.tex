@@ -1,0 +1,7 @@
+\subsection{Development Environment}
+\label{subsec:dev_envir}
+Die Firmware der Wetterstation wurde im AtmelStudio 7 (Version: 7.0.1645 @2015) der Atmel Corp. und der Arduino IDE 1.8.5 geschrieben. Beide sind als Freeware erhältlich. Die Arduino IDE 1.8.5 wurde hauptsächlich verwendet, um notwendige Librarys über den \textit{Library Manager} hinzuzufügen. Dies war besonders für die Sensoren wie der BME280 notwendig. Anschliessend konnte das gesamte Projekt ins AtmelStudio importiert werden. Der Vorteil liegt darin, dass nach dem ersten PCB-Entwurf dann mittels einem ISP\footnote{In System Programmer} der Microcontroller programmierbar bleibt. Dies ist mit der Arduino IDE 1.8.5 nicht möglich.\\
+
+%hier könnte noch die Liste der verwendeten Librarys aufgelistet werden. Falls dies überhaupt notwendig ist.
+
+In der C++ Syntax wurde das ganze Programm objektorientiert geschrieben und aufgebaut. Grund dafür ist die Skalierbarkeit des gesamten Projekts. Das objektorientierte Design ist besser strukturiert und kann einfach und übersichtlich erweitert werden.\\

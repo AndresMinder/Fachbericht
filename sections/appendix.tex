@@ -1,5 +1,53 @@
 \begin{appendix}
-\includepdf[pages={1},nup=1x1,landscape=false,scale=0.85,offset=0 -40,pagecommand={\section{Lastenheft}\label{tab:zeitplan}\thispagestyle{myheadings}}]{appendix/Auftragsbeschreibung.pdf} 
+\includepdf[pages={1},nup=1x1,landscape=false,scale=0.85,offset=0 -40,pagecommand={\section{Lastenheft}\label{tab:lastenheft}\thispagestyle{myheadings}}]{appendix/Auftragsbeschreibung.pdf} 
 \newpage
 
+\includepdf[pages={1},nup=1x1,landscape=true,scale=0.85,offset=0 -40,pagecommand={\section{Schema}\label{tab:schema}\thispagestyle{myheadings}}]{graphics/schema_und_layout/schematic.pdf} 
+
+\includepdf[pages={2},nup=1x1,landscape=true,scale=0.85,offset=0 -40,pagecommand={\thispagestyle{myheadings}}]{graphics/schema_und_layout/schematic.pdf} 
+
+\includepdf[pages={3},nup=1x1,landscape=true,scale=0.85,offset=0 -40,pagecommand={\thispagestyle{myheadings}}]{graphics/schema_und_layout/schematic.pdf}
+
+\includepdf[pages={4},nup=1x1,landscape=true,scale=0.85,offset=0 -40,pagecommand={\thispagestyle{myheadings}}]{graphics/schema_und_layout/schematic.pdf}
+
+\includepdf[pages={1},nup=1x1,landscape=true,scale=0.85,offset=0 -40,pagecommand={\section{PCB-Design (Top View)}\label{tab:pcb}\thispagestyle{myheadings}}]{graphics/schema_und_layout/pcb_design.pdf}
+
+\section{3D-Modellierung}
+
+%{\begin{minipage}[b][\textheight][t]{0.49\textwidth}
+%\centering
+%\captionof{figure}{Top View}
+%\includegraphics[width=\textwidth]{graphics/3D_Model/3d_topview.PNG}
+%\label{fig:3d_topview}
+%\end{minipage}}
+%{\begin{minipage}[b][\textheight][t]{0.49\textwidth}
+%\centering
+%\captionof{figure}{Bottom View}
+%\includegraphics[width=\textwidth]{graphics/3D_Model/3d_groundview.PNG}
+%\label{fig:3d_bottomview}
+%\end{minipage}}
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=0.5\textwidth]{graphics/3D_Model/3d_topview.PNG}
+\caption{Top View}
+\label{fig:3d_topview}
+\end{figure}
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=0.5\textwidth]{graphics/3D_Model/3d_groundview.PNG}
+\caption{Bottom View}
+\label{fig:3d_bottomview}
+\end{figure}
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=0.5\textwidth]{graphics/3D_Model/3d_dioganalFrontRight_view.PNG}
+\caption{Side View}
+\label{fig:3d_sideview}
+\end{figure}
+
+
 \end{appendix}
+

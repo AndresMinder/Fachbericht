@@ -172,6 +172,106 @@
       \verb https://www.amazon.com/Benetech-GM8908-Digital-Anemometer-10/dp/B074TDR5YQ
       \endverb
     \endentry
+    \entry{ADSkeineAngabe}{report}{}
+      \name{author}{1}{}{%
+        {{hash=da91c20be4b1683dd2968846cbcb1686}{%
+           family={{Argent Data Systems}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Argent Data Systems}%
+      }
+      \strng{namehash}{da91c20be4b1683dd2968846cbcb1686}
+      \strng{fullhash}{da91c20be4b1683dd2968846cbcb1686}
+      \strng{bibnamehash}{da91c20be4b1683dd2968846cbcb1686}
+      \strng{authorbibnamehash}{da91c20be4b1683dd2968846cbcb1686}
+      \strng{authornamehash}{da91c20be4b1683dd2968846cbcb1686}
+      \strng{authorfullhash}{da91c20be4b1683dd2968846cbcb1686}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Weather Sensor Assembly p/n 80422}
+      \field{type}{Bericht}
+      \field{urlday}{17}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{year}{keine Angabe}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.sparkfun.com/datasheets/Sensors/Weather/Weather%20Sensor%20Assembly..pdf
+      \endverb
+      \verb{url}
+      \verb https://www.sparkfun.com/datasheets/Sensors/Weather/Weather%20Sensor%20Assembly..pdf
+      \endverb
+    \endentry
+    \entry{windrichtungsgeber}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b3b3a6ac74ecbd56bcdbefa4799fb9df}{%
+           family={Amazon},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{fullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{bibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorbibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authornamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorfullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MISOL 1 PCS of Spare part for weather station to test the wind direction}
+      \field{urlday}{17}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{year}{keine Angabe}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.amazon.de/gp/product/B00QDMBU80/ref=ppx_yo_dt_b_asin_title_o00__o00_s00?ie=UTF8&psc=1
+      \endverb
+      \verb{url}
+      \verb https://www.amazon.de/gp/product/B00QDMBU80/ref=ppx_yo_dt_b_asin_title_o00__o00_s00?ie=UTF8&psc=1
+      \endverb
+    \endentry
+    \entry{Bosch2019}{report}{}
+      \name{author}{1}{}{%
+        {{hash=ecb4e901a9360f3e3ec82e379da0a9d7}{%
+           family={Sensortec},
+           familyi={S\bibinitperiod},
+           given={Bosch},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Bosch}%
+      }
+      \strng{namehash}{ecb4e901a9360f3e3ec82e379da0a9d7}
+      \strng{fullhash}{ecb4e901a9360f3e3ec82e379da0a9d7}
+      \strng{bibnamehash}{ecb4e901a9360f3e3ec82e379da0a9d7}
+      \strng{authorbibnamehash}{ecb4e901a9360f3e3ec82e379da0a9d7}
+      \strng{authornamehash}{ecb4e901a9360f3e3ec82e379da0a9d7}
+      \strng{authorfullhash}{ecb4e901a9360f3e3ec82e379da0a9d7}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{BME280 Combined humidity and pressure sensor}
+      \field{type}{Datasheet}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2019}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf
+      \endverb
+      \verb{url}
+      \verb https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf
+      \endverb
+      \warn{\item Overwriting field 'year' with year value from field 'date' for entry 'Bosch2019'}
+    \endentry
     \entry{ladyada2018}{report}{}
       \name{author}{1}{}{%
         {{hash=a246da9dbf29558a8a46cc2f0127b341}{%
@@ -187,8 +287,8 @@
       \strng{authorbibnamehash}{a246da9dbf29558a8a46cc2f0127b341}
       \strng{authornamehash}{a246da9dbf29558a8a46cc2f0127b341}
       \strng{authorfullhash}{a246da9dbf29558a8a46cc2f0127b341}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{17}
@@ -220,8 +320,8 @@
       \strng{authorbibnamehash}{c49b30a6981a942690541959d4048de1}
       \strng{authornamehash}{c49b30a6981a942690541959d4048de1}
       \strng{authorfullhash}{c49b30a6981a942690541959d4048de1}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{SanDisk microSDHC Speicherkarte}}
@@ -249,8 +349,8 @@
       \strng{authorbibnamehash}{c49b30a6981a942690541959d4048de1}
       \strng{authornamehash}{c49b30a6981a942690541959d4048de1}
       \strng{authorfullhash}{c49b30a6981a942690541959d4048de1}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{SD/SDHC/SDXC Spezifikationen und Kompatibilitäten}}

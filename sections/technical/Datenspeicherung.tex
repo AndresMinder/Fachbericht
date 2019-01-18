@@ -50,9 +50,9 @@ Für die Implementation in die Firmware, um mit dem Breakoutboard über SPI zu k
 
 Für eine übersichtlichere Programmstruktur und einfachere Handhabung wurden die Exampel-Codes für die korrekte Implementation angepasst und in Funktionen verpackt. Die Funktionen sind extern im Headerfile ''SDCard.h''\footnote{ ''*.h'' bezieht sich relativ auf das aktive Projektverzeichnis} deklariert und im SDCard.cpp initialisiert.
 \begin{itemize}
-\item \textcolor{blue}{void} \textcolor{orange}{getCardInformations}():
-\item \textcolor{blue}{void} \textcolor{orange}{readFileSDCard}(\textcolor{Dandelion}{String} filename): 
-\item \textcolor{blue}{void} \textcolor{orange}{writeFileSDCard}(\textcolor{blue}{double} value2save, \textcolor{Dandelion}{String} filename): 
-\item \textcolor{blue}{void} \textcolor{orange}{deleteFileSDCard}(\textcolor{Dandelion}{String} filename): 
+\item \textcolor{blue}{void} \textcolor{orange}{getCardInformations}()
+\item \textcolor{blue}{void} \textcolor{orange}{readFileSDCard}(\textcolor{Dandelion}{String} filename)
+\item \textcolor{blue}{void} \textcolor{orange}{writeFileSDCard}(\textcolor{blue}{double} value2save, \textcolor{Dandelion}{String} filename)
+\item \textcolor{blue}{void} \textcolor{orange}{deleteFileSDCard}(\textcolor{Dandelion}{String} filename)
 \end{itemize}
 \todo[inline]{Funktionen könnten noch beschrieben werden. Noch Abklären, ob die Fußzeilen nötig sind!}
